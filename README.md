@@ -99,3 +99,34 @@ Write a program, which reads weights (lbs.) of N students into a list and conver
 Explanation:
 The code reads the number of students and their weights in pounds from the user, storing the weights in a list. It then converts these weights to kilograms using a conversion factor and rounds the results to two decimal places. Finally, it prints both the original weights in pounds and the converted weights in kilograms.
 
+
+
+# Machine_Learning
+Student Info:
+Name: Soumya Goverarram
+ID: 700756001
+                                  Assignment 2
+
+1.	Use a python code to display the following star pattern using the for loop
+
+This code generates two nested loops in python that print out a pattern of “*”. The first loop prints out ascending asterisks and the second loop prints out descending asterisks. The "\r" character is used to indicate a carriage return and start a new line.	
+
+2.	Use looping to output the elements from a provided list present at odd indexes. 
+my_list = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+ 
+This code creates a list of numbers my_list from 10 to 100, and in order to print odd indexed numbers I have used list slicing starting from index 1 and with a step 2. The "end" parameter in the print statement is set to a space to separate the printed numbers with a space instead of a new line.
+
+3.	Write a code that appends the type of elements from a given list. 
+Input x = [23, ‘Python’, 23.98] Expected output [23, 'Python', 23.98]
+
+This code creates a list "a" containing elements of different data types (23, “Python”, and 23.98), and then creates an empty list "b". The for loop iterates through each element in "a" and appends its data type to "b". Finally, the code prints both the original list "a" and the list of data types "b".
+
+4.	 Write a function that takes a list and returns a new list with unique items of the first list. Sample List: [1,2,3,3,3,3,4,5] Unique List: [1, 2, 3, 4, 5]
+
+This code defines a function "unique_list" that takes a list as an argument and returns a new list that contains only the unique elements from the original list. The function uses a for loop to iterate over the elements in the input list and checks if each element is already in the new list "res", if not, the element is appended to "res". The code then calls the function and passes a list of numbers as an argument, and prints the resulting unique list.
+
+5.	Write a function that accepts a string and calculate the number of upper-case letters and lower-case letters. Input String: 'The quick Brow Fox' Expected Output: No. of Upper-case characters: 3 No. of Lower-case Characters: 12
+
+This code defines a function "lettersCount" that takes a string as an argument and calculates the number of upper-case and lower-case letters in the input string. The function initializes a dictionary "d" with keys "UPPER_CASE" and "LOWER_CASE" and values 0. The for loop iterates over each character in the input string and increments the count of upper-case or lower-case letters in "d" depending on the case of the character. The code then prints the input string and the number of upper-case and lower-case letters in the string. The function is then called with the input string "The quick Brow Fox".
+
+                                  
